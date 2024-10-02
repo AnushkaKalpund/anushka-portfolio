@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anushka Kalpund Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Anushka</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li>
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li>
+              <a href="#info" class="nav__link">About</a>
+            </li>
+            <li>
+              <a href="#work" class="nav__link">Projects</a>
+            </li>
+            <li>
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li>
+              <a href="#services" class="nav__link">Services</a>
+            </li>
+            <li>
+              <a href="#experience" class="nav__link">Experience</a>
+            </li>
+            <li>
+              <a href="#contact" class="nav__link">Contact Me</a>
+            </li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-large-line"></i>
+          </div>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <img
+            src="Portfolio image.jpg"
+            alt="image"
+            class="home__img"
+          />
+
+          <div class="home__data">
+            <h1 class="home__name">
+              Anushka <br />
+              Kalpund
+            </h1>
+            <h3 class="home__profession">Software Engineer</h3>
+          </div>
+          <a
+              href="Anushka_Kalpund.pdf"
+              download=""
+              target="_blank"
+              class="button about__button"
+              >Download Resume</a
+            >
+          <a href="#work" class="home__scroll">
+            <div class="home__scroll-box">
+              <i class="ri-arrow-down-line"></i>
+            </div>
+
+            <span class="home__scroll-text">Recent Works</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="work section" id="work">
+        <h2 class="section__title">Projects</h2>
+        <div class="work__container container grid">
+          <article class="work__card">
+            <a
+              href="https://anushkakalpund.github.io/Githuh-Search/"
+              target="_blank"
+              class="work__link"
+            >
+              <h2 class="work__title">GitHub Profile Searcher</h2>
+              <p class="work__description">
+                GitHub profile searcher developed using frontend technologies
+                and API to make github profile searching effective and easy!
+              </p>
+
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </article>
+
+          <article class="work__card">
+            <a
+              href=" https://anushkakalpund.github.io/Password-generator/"
+              target="_blank"
+              class="work__link"
+            >
+              <h2 class="work__title">Password Generating System</h2>
+              <p class="work__description">
+                Designed and developed a clean and modern website using HTML,
+                CSS, JavaScript and JQueryfor generating a secured and random
+                password.
+              </p>
+
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </article>
+
+          <article class="work__card">
+            <a href="#" target="_blank" class="work__link">
+              <h2 class="work__title">
+                Notes Application using Java programming
+              </h2>
+              <p class="work__description">
+                A notes making application build using java, java swing with
+                MySQL database for storing, deleting and updating the notes.
+                Worked on CRUD Operations to add creation, deletion, updation
+                and insertion features in the project.
+              </p>
+
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </article>
+
+          <article class="work__card">
+            <a href="#" target="_blank" class="work__link">
+              <h2 class="work__title">
+                Online Voting Application - MERN Full stack
+              </h2>
+              <p class="work__description">
+                Developing a voting system to get hands on experience by working
+                on MongoDB and frontend technologies as HTML, CSS, JavaScript
+                with hosting.
+              </p>
+
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section class="info section" id="info">
+        <h2 class="section__title">About Me</h2>
+
+        <div class="info__container container grid">
+          <div class="about grid">
+            <img
+              src="portfolio image 2.jpg"
+              alt="image"
+              class="about__img"
+            />
+            <p class="about__description">
+                  Hi, I am Anushka Kalpund, pursuing my Bachelor's in Technology
+                  in Computer Science Engineering. I have a passion for
+                  innovation and a commitment to quality. My goal is to bridge
+                  the gap between technology and human needs by creating
+                  software that not only functions effectively but also
+                  resonates with its users.
+            </p>
+
+            <a
+              href="Anushka_Kalpund.pdf"
+              download=""
+              target="_blank"
+              class="button about__button"
+              >Download Resume</a
+            >
+          </div>
+
+          <div class="skills" id="skills">
+            <h3 class="info__title">Skills</h3>
+            <div class="skills__content grid">
+              <div class="skills__box">
+                <img
+                  src="info-html.svg"
+                  alt="image"
+                  class="skills__img"
+                />
+                <span class="skills__name">HTML</span>
+              </div>
+              <div class="skills__box">
+                <img
+                  src="info-css.svg"
+                  alt="image"
+                  class="skills__img"
+                />
+                <span class="skills__name">CSS</span>
+              </div>
+              <div class="skills__box">
+                <img
+                  src="info-javascript.svg"
+                  alt="image"
+                  class="skills__img"
+                />
+                <span class="skills__name">JavaScript</span>
+              </div>
+              <div class="skills__box">
+                <img
+                  src="info-react.svg"
+                  alt="image"
+                  class="skills__img"
+                />
+                <span class="skills__name">React</span>
+              </div>
+              <div class="skills__box">
+                <img
+                  src="info-github.svg"
+                  alt="image"
+                  class="skills__img"
+                />
+                <span class="skills__name">GitHub</span>
+              </div>
+              <div class="skills__box">
+                <img
+                  src="java-logo.png"
+                  alt="image"
+                  class="skills__img"
+                />
+                <span class="skills__name">Java</span>
+              </div>
+              <div class="skills__box">
+                <img
+                  src="mysql-logo.png"
+                  alt="image"
+                  class="skills__img"
+                />
+                <span class="skills__name">MySQL</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="experience" id="experience">
+            <h3 class="info__title">Experience</h3>
+            <div class="experience__content grid">
+              <h2 class="experience__company">Web Developer Intern</h2>
+              <div>
+                <h3 class="experience__profession">Cogitix Tech Solutions</h3>
+                <span class="experience__data">08/24 - 10/24</span>
+                <p class="experience__description">
+                  <ul>
+                    <li>Build 2 frontend and 2 backend projects with 1 major project and contributed to the projects development with efficiency.</li>
+                      <li>Worked with application programming interfaces to understand REST APIs.</li>
+                      <li>Gained hands on experience by writing effective backend code for the assigned task.</li>
+                  </ul>
+                </p>
+              </div>
+            <div class="experience__content grid">
+              <h2 class="experience__company">Web Designing and development Intern</h2>
+              <div>
+                <h3 class="experience__profession">Oasis Infobyte</h3>
+                <span class="experience__data">11/23 - 12/23</span>
+                <p class="experience__description">
+                  <ul>
+                    <li>Designed and developed dynamic and responsive websites using HTML, CSS, JavaScript, and
+                       Advance Javascript.</li>
+                       <li>Deployed the projects and gained practical knowledge of git commands and github.</li>
+                       <li>Used bootstrap to implement responsiveness.</li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services section" id="services">
+        <h2 class="section__title">SERVICES</h2>
+        <div class="services__container container grid">
+          <article class="services__card">
+            <i class="ri-code-box-line services__icon"></i>
+            <h3 class="services__title">Website Development</h3>
+            <p class="services__description">
+              Building easy-to-navigate websites with high performance using latest full stack technologies including ReactJs and more.
+            </p>
+          </article>
+
+          <article class="services__card">
+            <i class="ri-code-box-line services__icon"></i>
+            <h3 class="services__title">Software Development</h3>
+            <p class="services__description">
+              Design and develop tailored software solutions that meet unique business needs. 
+              Build and integrate APIs to enhance software functionality and connectivity.
+            </p>
+          </article>
+
+          <article class="services__card">
+            <i class="ri-code-box-line services__icon"></i>
+            <h3 class="services__title">Custom Web Design</h3>
+            <p class="services__description">
+              Create visually appealing, user-centric web designs that reflect your brand identity.
+            </p>
+          </article>
+
+          <article class="services__card">
+            <i class="ri-pencil-ruler-2-line services__icon"></i>
+            <h3 class="services__title">Responsive website development</h3>
+            <p class="services__description">
+              Ensure websites work seamlessly across all major browsers and devices with effectiveness.
+            </p>
+          </article>
+
+        </div>
+      </section>
+      
+
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Let's Connect</h2>
+        <p>
+          I’d love to hear from you! Whether you have questions, 
+          feedback, or just want to chat about ideas, feel free to reach out. 
+          You can drop me an email, or connect with me on LinkedIn. Let’s turn our
+           conversations into meaningful collaborations!</p>
+         
+            <div class="contact__social grid">
+                <a href="mailto:anushkakalpund@gmail.com" class="contact__social-link">
+                    <i class="ri-mail-line"></i>
+                    <span>Email</span>
+                </a>
+    
+                <a href="https://www.linkedin.com/in/anushkakalpund" target="_blank" class="contact__social-link">
+                    <i class="ri-linkedin-box-line"></i>
+                    <span>LinkedIn</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    </main>
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <div class="footer__about">
+          <h3 class="footer__title">Anushka Kalpund</h3>
+          <p class="footer__description">
+            Crafting  applications that make a significant, positive difference in the lives of those who interact with them.
+          </p>
+          <div class="footer__contacts">
+            <h3 class="footer__title">Contacts</h3>
+            <p class="footer__contact-info">
+              +91-9028237546<br>
+              anushkakalpund@gmail.com
+            </p>
+          </div>
+          <a href="https://www.linkedin.com/in/anushkakalpund" target="_blank" class="contact__social-link">
+            <i class="ri-linkedin-box-line"></i>
+            <span>Let's Connect ! - LinkedIn</span>
+        </a>
+        </div>
+    
+        <div class="footer__navigation">
+          <h3 class="footer__title">Navigation</h3>
+          <ul class="footer__links">
+            <li>
+              <a href="#home" class="footer__link">Home</a>
+            </li>
+            <li>
+              <a href="#work" class="footer__link">Project</a>
+            </li>
+            <li>
+              <a href="#info" class="footer__link">About</a>
+            </li>
+          </ul>
+        </div>
+  
+    
+        <div class="footer__copy">
+          <span>Website made by Anushka Kalpund.</span>
+        </div>
+      </div>
+    </footer>
+    
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+    <script src="scrollreveal.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
